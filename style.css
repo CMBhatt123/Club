@@ -2,15 +2,12 @@
   height: 100px;
   border-radius: 50%;
 }
-img {
-  height: 80%;
-  width: 100%;
-}
-nav {
-  position;
-}
-.carousel-item{
+
+.carousel-item img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+.p1 {
+  text-align: justify;
 }
