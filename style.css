@@ -11,3 +11,42 @@
 .p1 {
   text-align: justify;
 }
+.intro {
+  margin-top: 40px;
+}
+.p2 {
+  text-align: justify;
+  width: 600px;
+}
+.coreteam {
+  margin-top: 100px;
+}
+.ex-image {
+  width: 100%;
+  object-fit: cover;
+}
+.detail {
+  border: none;
+  width: 250px;
+  position: absolute;
+  top: 75%;
+  left: 7%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px 4px;
+}
+.col-4 {
+  margin-bottom: 100px !important;
+}
+.head-box {
+  margin-top: 150px;
+  border: 2px solid black;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+}
