@@ -50,3 +50,10 @@
   background-color: gray;
   color: white;
 }
+.underline a {
+  text-decoration: none;
+}
+.footer {
+  background-color: #131950;
+  color: white;
+}
