@@ -35,7 +35,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active me-4" aria-current="page" href="index.html"
+              <a
+                class="nav-link active me-4"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
@@ -85,7 +88,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active me-4" aria-current="page" href="code.html"
+              <a
+                class="nav-link active me-4"
+                aria-current="page"
+                href="code.html"
                 >CODE OF CONDUCT</a
               >
             </li>
@@ -104,51 +110,79 @@
       </div>
     </nav>
     <div class="container-fluid head-box">
-      <div><h1>Executive Committee</h1>
-      <a class="text-light"href="index.html">Home</a>|<span>executive Committee</span></div>
-    </div>
-    <div class="coreteam">
-      <div class="text-center">
-        <span> SNSC IT Club Board-2022/23 </span>
-        <h2>Executive Committee</h2>
+      <div>
+        <h4>Apply to be memmber</h4>
+        <a class="text-light" href="index.html">Home</a>|<span
+          >Apply to be member</span
+        >
       </div>
-      <div class="row">
-        <div class="col-4">
-          <div class="card d-flex align-items-center" style="width: 18rem">
-            <img class="ex-image" src="cm.jpg" height="100%" width="90%" alt="..." />
-            <div class="detail">
-              <h2>CM Bhatt</h2>
-              <h3>President</h3>
-            </div>
-          </div>
+    </div>
+    <div class="container-fluid p-5">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label"
+            >First Name <span style="color: red">*</span></label
+          >
+          <input type="text" class="form-control" id="iname" required />
         </div>
-        <div class="col-4">
-          <div class="card d-flex align-items-center" style="width: 18rem">
-            <img class="ex-image" src="cm.jpg" height="100%" width="90%" alt="..." />
-            <div class="detail">
-              <h2>CM Bhatt</h2>
-              <h3>President</h3>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <label for="name" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="iname" required />
         </div>
-        <div class="col-4">
-          <div class="card d-flex align-items-center" style="width: 18rem">
-            <img class="ex-image" src="cm.jpg" height="100%" width="90%" alt="..." />
-            <div class="detail">
-              <h2>CM Bhatt</h2>
-              <h3>President</h3>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Year</label>
+          <select id="inputState" class="form-select" required>
+            <option selected>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            <option>Fourth</option>
+          </select>
         </div>
-        <div class="col-4">
-          <div class="card d-flex align-items-center" style="width: 18rem">
-            <img class="ex-image" src="cm.jpg" height="100%" width="90%" alt="..." />
-            <div class="detail">
-              <h2>CM Bhatt</h2>
-              <h3>President</h3>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Semester</label>
+          <select id="inputState" class="form-select">
+            <option selected>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+          </select>
         </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Program</label>
+          <select id="inputState" class="form-select">
+            <option selected>B.Sc. CSIT</option>
+            <option>BIT</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label"> User Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">User password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-md-6">
+          <label for="contact" class="form-label">Contact number</label>
+          <input type="text" class="form-control" id="iname" required />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
     </div>
     <!-- Footer section -->
     <div class="container-fluid footer p-3">
